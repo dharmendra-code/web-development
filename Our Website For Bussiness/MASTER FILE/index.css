@@ -1,0 +1,943 @@
+body {
+    text-align: justify;
+}
+
+
+/* Header */
+
+.h {
+    width: 100%;
+    background-color: rgb(45, 65, 90);
+    padding: 10px 0 10px 0px;
+    height: 7vh;
+    display: block;
+    text-overflow: inherit;
+    overflow: hidden;
+    position: fixed;
+}
+
+.left-container {
+    display: inline-flex;
+    margin: 0 0 0 200px;
+}
+
+.info svg {
+    margin: 0 8px 0 30px;
+    color: orange;
+}
+
+.right-container {
+    float: right;
+    display: inline-flex;
+    margin-right: 70px;
+}
+
+.translater {
+    margin-right: 40px;
+}
+
+#Language {
+    margin: 0 40px 0 0;
+    background: none;
+    border: none;
+    color: white;
+}
+
+option {
+    background: none;
+    border: none;
+    color: white;
+}
+
+small {
+    color: white;
+}
+
+.icon {
+    margin: 0 0 20px 0;
+}
+
+.info svg:hover {
+    color: white;
+}
+
+.info small:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+svg {
+    size: 2px;
+}
+
+div svg {
+    color: white;
+    margin: 0 0 0px 8px;
+    size: 2px;
+}
+
+svg:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+
+/*  Navbar */
+
+nav {
+    color: black;
+    height: 13vh;
+}
+
+.navbar {
+    display: flex;
+    top: 15px;
+}
+
+nav .logo {
+    font-size: 40px;
+    margin-left: 205px;
+    position: sticky;
+}
+
+nav .nav-items {
+    display: inline-flex;
+    text-decoration: none;
+    margin-right: 205px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav .menu-icon,
+nav .cancel-icon,
+nav .search-icon {
+    width: 40px;
+    text-align: center;
+    margin: 0 50px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+
+/**  Section - content**/
+
+.slider-all {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMAGE/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+    height: 75vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    color: white;
+    z-index: 2;
+}
+
+.content h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.content p {
+    font-size: 15px;
+    margin: 0 0 30px 0;
+}
+
+.slider-all a {
+    background-color: rgb(231, 167, 49);
+    color: white;
+    padding: 8px 10px 8px 10px;
+    font-weight: normal;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.slider-all a:hover {
+    text-decoration: none;
+    color: green;
+    background-color: white;
+}
+
+
+/* GLOBAL STYLES */
+
+
+/* DEMO-SPECIFIC STYLES */
+
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+
+/* section - 4*/
+
+.main-1 {
+    color: black;
+    display: flex;
+    background-color: rgb(178, 178, 179);
+}
+
+.main0 {
+    margin: 8% 8% 8% 8%;
+    display: flex;
+    box-shadow: 0px 0px 60px orange;
+}
+
+.main-inner- {
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.main-inner- h2 {
+    margin: 70px 30px 20px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.quick-help-content {
+    text-transform: capitalize;
+}
+
+.quick-h {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.quick-help {
+    font-size: 13px;
+    color: rgb(105, 105, 105);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+}
+
+.main-inner-0 {
+    display: flex;
+}
+
+.inner-icon {
+    margin: 20px;
+    display: flex;
+    text-align: justify;
+}
+
+.inner-icon svg {
+    color: orange;
+    margin: 12px 4px 0 0;
+}
+
+.boot-icon svg:hover {
+    color: white;
+}
+
+.boot-icon:first-child {
+    color: #fff;
+}
+
+.boot-icon:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.boot-icon {
+    border: 1px solid black;
+    width: 8vw;
+    height: 7vh;
+    text-align: center;
+    margin: 8px 10px 0 0;
+    color: #fff;
+}
+
+
+/*Form*/
+
+.main-inner-02 {
+    background-color: rgb(38, 48, 66);
+    color: white;
+    width: 50vw;
+    padding: 80px 40px 0 80px;
+}
+
+.main-inner-02 select {
+    border: 1px solid white;
+}
+
+.main-inner-02>label {
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+div label {
+    text-transform: capitalize;
+}
+
+form select option {
+    background-attachment: fixed;
+    border: none;
+    background: none;
+}
+
+form select {
+    width: 100%;
+    height: 4vh;
+    margin-bottom: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    text-transform: capitalize;
+}
+
+select>option {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100%;
+}
+
+select>option:hover {
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+form option:hover {
+    color: white;
+    background-color: orange;
+}
+
+form button {
+    text-align: center;
+    background-color: rgb(238, 169, 42);
+    border: none;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+
+/** SECTION-5-CARDS **/
+
+.card-body {
+    display: flex;
+    margin: 0 100px 10px 90px;
+}
+
+.card-img {
+    margin: 0 30px 0 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMAGE/firos-nv-1wBmbnvv4TE-unsplash.jpg");
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.items {
+    margin-top: 45%;
+}
+
+.items fas {
+    color: #fff;
+}
+
+.items button {
+    cursor: pointer;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 2px 5px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+div>img {
+    background-size: 100%;
+    width: 20vw;
+    box-shadow: none;
+}
+
+.btn {
+    display: flex;
+}
+
+.a {
+    display: inline-flex;
+}
+
+.a svg {
+    color: black;
+}
+
+.carousel-inner {
+    margin: 0 15px 0px 0;
+    box-shadow: 0 0 2px black;
+}
+
+.carousel-inner .conts {
+    margin: 10px 5px 30px 15px;
+}
+
+.conts h2 {
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.conts button {
+    background: none;
+    border: none;
+    box-shadow: 0 0 2px black;
+    padding: 3px 10px 3px 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/**  SECTION -6- REGISTER COUNT **/
+
+.main-count {
+    background-image: linear-gradient( rgba(14, 47, 39, 0.904), rgba(14, 38, 44, 0.863)), url("../IMAGE/firos-nv-1wBmbnvv4TE-unsplash.jpg");
+    background-size: 100%;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 70vh;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+
+.register-count {
+    float: left;
+    text-align: center;
+    margin: 150px 20px 30px 300px;
+}
+
+.register-count p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.register-count h1 {
+    font-size: 60px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.count-number {
+    display: flex;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.count-number .bottom {
+    border: 1px solid white;
+    margin: 5px;
+    width: 70px;
+}
+
+.count-number .bottom h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.count-number .bottom p {
+    background-color: orange;
+    padding: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.form-input {
+    background-color: white;
+    color: black;
+    width: 20vw;
+    height: 45vh;
+    float: right;
+    text-align: center;
+    margin: 100px 300px 0px 0px;
+}
+
+.form-input form {
+    margin: 30px;
+}
+
+.form-input form h1 {
+    font-size: 20px;
+    color: rgb(66, 65, 65);
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form-input form p {
+    color: rgb(66, 65, 65);
+    text-align: justify;
+}
+
+.form-input form input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.form-input form select {
+    box-shadow: 0 0 2px black;
+    color: black;
+    padding-left: 20px;
+}
+
+.form-input form button {
+    padding: 5px;
+    background-color: orange;
+    margin: 0;
+}
+
+
+/**  Event - 7 **/
+
+.event {
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+.event .h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(53, 51, 51);
+}
+
+.event p {
+    text-transform: capitalize;
+}
+
+.event .span {
+    display: inline-flex;
+}
+
+.event .line {
+    background-color: rgb(78, 74, 74);
+    height: 2px;
+    width: 200px;
+}
+
+.event .span #top {
+    margin-top: -50px;
+}
+
+.bottom-inner-1 {
+    margin: 30px -140px 30px 50px;
+    color: rgb(75, 65, 65);
+}
+
+.bottom-inner-2 {
+    margin: 30px 80px 30px 0;
+    color: rgb(75, 65, 65);
+}
+
+.bottom-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+}
+
+.bottom-img {
+    background-image: url(../IMAGE/luke-peters-B6JINerWMz0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+}
+
+.bottom-img div h1 {
+    color: #fff;
+    font: sans-serif;
+    font-size: 30px;
+}
+
+.bottom-img>div {
+    margin: 71% 0 0 0;
+    background-color: orange;
+    width: 70px;
+}
+
+.bottom-main {
+    display: inline-flex;
+    width: 40vw;
+    height: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 0 2px rgb(102, 96, 96);
+}
+
+.bottom-main button {
+    background: none;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.bottom-view>div {
+    display: inline-flex;
+}
+
+.bottom-view svg {
+    color: black;
+    margin-right: 10px;
+    margin-left: 0%;
+}
+
+.bottom-view-content #p {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.bottom-view p {
+    margin-right: 50px;
+}
+
+.bottom-view~p {
+    text-align: justify;
+}
+
+.bottom-view-content {
+    margin: 4px 10px 10px 30px;
+    text-align: left;
+}
+
+.bottom-view-content #p {
+    text-transform: capitalize;
+    tab-size: 40px;
+}
+
+
+/** Section - 8 **/
+
+.collage {
+    text-align: center;
+}
+
+div .a01 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.line-create {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0 20px 0;
+}
+
+.line-create .space {
+    width: 100px;
+    height: 1px;
+    background-color: rgb(83, 81, 81);
+    margin-right: 10px;
+}
+
+.img-with-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.collage-img {
+    background-color: rgb(240, 240, 240);
+    margin: 10px;
+    width: 420px;
+}
+
+.collage-img img {
+    background-size: 100%;
+    width: 100%;
+}
+
+.collage-content {
+    margin: 10px 10px 10px 20px;
+    text-align: left;
+}
+
+.collage-content p {
+    text-transform: capitalize;
+}
+
+.collage-content p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: rgb(58, 58, 58);
+}
+
+.collage-img p,
+button {
+    text-align: justify;
+}
+
+.collage-content button {
+    background: none;
+    box-shadow: 0 0 1px black;
+    border: none;
+    text-transform: capitalize;
+    color: rgb(56, 56, 56);
+    padding: 2px 7px 2px 7px;
+    border-radius: 4px;
+}
+
+
+/**  Section - 9 **/
+
+.view-all-news {
+    margin: 40px 0 40px 0px;
+}
+
+.view-all-news button {
+    width: 200px;
+    text-align: center;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+/** Section - 10 **/
+
+.back-img {
+    color: white;
+    background-image: linear-gradient( rgba(14, 47, 39, 0.904), rgba(14, 38, 44, 0.863)), url("../IMAGE/firos-nv-1wBmbnvv4TE-unsplash.jpg");
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+    margin-bottom: 110px;
+}
+
+.back-img .dyanmic-content {
+    margin: 120px 70px 120px 30px;
+    font-size: 30px;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.dyanmic-content div:first-child {
+    margin-right: 20px;
+}
+
+
+/** Section - 11 **/
+
+.fac-tech {
+    display: flex;
+    justify-content: center;
+}
+
+.fac-tech>div {
+    margin: 0 30px 0 0;
+}
+
+.fac-tech div:first-child {
+    margin-top: 70px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(56, 56, 56);
+}
+
+.inner-img-slide div:first-child {
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.inner-img-slide .p01 {
+    width: 30vw;
+}
+
+.inner-img-slide div .item-1 {
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 200px;
+    background-color: black;
+}
+
+.inner-img-slide>div {
+    margin-left: 25px;
+}
+
+.inner-img-slide .img-cont p {
+    bottom: 0;
+    font-weight: bold;
+    margin-top: 80%;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgba(34, 58, 75, 0.925);
+    padding: 5px 0px 5px 20px;
+}
+
+.inner-img-slide div i {
+    font-size: 25px;
+    color: rgb(66, 65, 65);
+}
+
+.inner-img-slide .img-cont {
+    background-size: 100%;
+    background-position: cover;
+    width: 20vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-image: url(../IMAGE/WhatsApp\ Image\ 2021-10-30\ at\ 10.30.17\ AM.jpeg);
+}
+
+
+/* .item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+	top: 2em;
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+} */
+
+
+/** Section - 12 **/
+
+.main-footer {
+    background-color: rgb(8, 40, 43);
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main-footer .center-container {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link>div {
+    margin: 40px;
+}
